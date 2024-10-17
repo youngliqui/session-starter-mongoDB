@@ -1,0 +1,17 @@
+spring:
+  application:
+    name:
+      session-starter
+  data:
+    mongodb:
+      username: pavel
+      password: pavel
+      host: localhost
+      port: 27017
+      database: session_starter_db
+      authentication-database: admin
+
+scheduler:
+  enabled: true
+  cron:
+    clean-expired-sessions: 0 0 0 * * ?
