@@ -1,0 +1,3 @@
+rootProject.name = 'session-starter-app'
+
+include 'session-api', 'session-starter', 'business-logic'
