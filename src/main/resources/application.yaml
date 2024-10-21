@@ -1,7 +1,7 @@
 spring:
   application:
     name:
-      session-starter
+      session-api
   data:
     mongodb:
       username: pavel
@@ -15,3 +15,6 @@ scheduler:
   enabled: true
   cron:
     clean-expired-sessions: 0 0 0 * * ?
+
+server:
+  port: 8081

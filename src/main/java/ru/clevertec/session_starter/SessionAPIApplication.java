@@ -4,10 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SessionStarterApplication {
+public class SessionAPIApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(SessionStarterApplication.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(SessionAPIApplication.class, args);
+    }
 }
