@@ -1,0 +1,19 @@
+bootJar {
+    enabled = false
+}
+
+/**
+ * Submodules import sample
+ */
+dependencies {
+    implementation project(':session-api')
+}
+
+/**
+ * Spring
+ */
+dependencies {
+    annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
+
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+}
