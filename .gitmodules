@@ -1,0 +1,4 @@
+[submodule "session-api"]
+	path = session-api
+	url = https://github.com/youngliqui/session-starter-mongoDB.git
+	branch = feature/session-starter
