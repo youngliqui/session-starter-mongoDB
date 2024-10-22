@@ -17,4 +17,4 @@ scheduler:
     clean-expired-sessions: 0 0 0 * * ?
 
 server:
-  port: 8081
+  port: 8082
