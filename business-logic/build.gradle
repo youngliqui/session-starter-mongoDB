@@ -1,0 +1,22 @@
+/**
+ * Submodules import sample
+ */
+dependencies {
+    implementation(project(':session-starter'))
+    implementation(project(':session-api'))
+}
+
+/**
+ * Spring
+ */
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+}
+
+/**
+ * Postgres
+ */
+dependencies {
+    runtimeOnly 'org.postgresql:postgresql'
+}

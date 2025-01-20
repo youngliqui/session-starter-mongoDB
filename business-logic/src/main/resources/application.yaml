@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: business-logic
+  datasource:
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://localhost:5430/business_logic_db
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+server:
+  port: 8080
+
+session:
+  base-url: http://localhost:8082/api/sessions
+  login:
+    blacklist:
+      - user1
+      - user2
+  handlerEnable: true
